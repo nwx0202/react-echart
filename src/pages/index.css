@@ -1,0 +1,17 @@
+/* @import '~antd/lib/style/themes/default.less'; */
+.infoPanel {
+  display: flex;
+}
+
+.fragment {
+  flex: 1;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: #fff;
+  color: rgba(0,0,0,.45);
+  text-align: center;
+}
+
+.fragment:last-child {
+  margin-right: 0;
+}
