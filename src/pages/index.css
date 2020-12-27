@@ -15,3 +15,20 @@
 .fragment:last-child {
   margin-right: 0;
 }
+
+.row {
+  display: flex;
+}
+
+.echart {
+  flex: 1;
+  height: 300px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 10px 10px 0;
+  background-color: #fff;
+}
+
+.row .echart:last-child {
+  margin-right: 0;
+}

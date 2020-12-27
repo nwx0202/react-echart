@@ -5,9 +5,6 @@ import Fragment from '../components/Fragment'
 import './index.css'
 
 class InfoPanel extends Component {
-  constructor(props) {
-    super(props);
-  }
   
   render() {
     const staticInfo = {
